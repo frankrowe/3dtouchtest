@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  var map = new L.Map('map').setView(new L.LatLng(38.85, -77), 7);
+  var map = new L.Map('map').setView(new L.LatLng(0, 0), 0);
 
   L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
