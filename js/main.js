@@ -41,6 +41,10 @@ $(document).ready(function(){
     }else{
       forceValue = 0;
     }
+
+    if (forceValue > 0) {
+      map.zoomIn()
+    }
     console.log(forceValue);
   }
 
