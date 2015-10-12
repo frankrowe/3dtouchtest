@@ -42,7 +42,7 @@ $(document).ready(function(){
       forceValue = 0;
     }
 
-    if (forceValue > 0) {
+    if (forceValue > 0.5) {
       map.zoomIn()
     }
     console.log(forceValue);
