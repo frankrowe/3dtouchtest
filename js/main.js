@@ -45,7 +45,7 @@ $(document).ready(function(){
     if (forceValue > 0.5) {
       map.zoomIn()
     }
-    console.log(forceValue);
+
   }
 
   function addForceTouchToElement(elem) {
